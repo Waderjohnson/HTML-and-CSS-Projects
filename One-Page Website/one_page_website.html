@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>DisneyWorldSpace | Travel</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="./css/one_page_website.css">
+		<link rel="stylesheet" href="./css/one_page_website_animations.css">
+        <script src="JavaScript/one-Page.js" defer></script>
+	</head>
+	<body>
+		<!--NAV-->
+        <div class="wrap">
+            <div class="menu-container">
+                <ul class="menu">
+                    <a href="#Home"><li>HOME</li></a>
+                    <a href="#Gallery"><li>GALLERY</li></a>
+                    <a href="#Contact"><li>RESERVATIONS</li></a>
+                </ul>   
+            </div>
+        </div>
+        <!--END NAV-->
+		
+		<!-- HOME -->
+		<div id="Home">
+			<div>
+				<h1>Travel To DisneyWorld!</h1>
+				<p>Reservations Open From <time>10:00</time>am to <time>6:00</time>pm Every Day.</p>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/mEyUzQUH-IY"></iframe>
+						<details>
+					<summary>Tips for Visiting DisneyWorld</summary>
+						<article>
+							<h2><em>Now Is The Time To Go To DisneyWorld!</em></h2>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/l7oCuKlvTks"></iframe>
+						</article>
+				</details>
+				<details>
+					<summary>Disney Information</summary>
+						<article>
+							<h2><em>All the Latest Information on DisneyWorld</em></h2>
+							<img src="./images/thumb/Mickeyandfriends.jpg" alt="Mickey and his pals">
+						<br> <a href="https://allears.net/" target="_blank">Click Here For All the Latest Disney Information!</a></br>
+						</article>
+				</details>
+			</div>
+		</div>
+		<!-- END HOME -->
+		
+		<!--GALLERY-->
+        <section id="Gallery">
+            <div class="container">
+				<div class="container1">
+                <h1>Gallery</h1>
+				<p>Pictures From The Most Magical Place On Earth!</p>
+                <p>Click on a picture to Enlarge!</p>
+                <div class="flex-container">
+                    <!-- Images used to open the lightbox -->
+                    <div class="row">
+                        <div class="column">
+                            <div class="photo-container">
+                                <div class="photo">
+                                    <img src="./images/Lightbox/1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="photo-container">
+                                <div class="photo">
+                                    <img src="./images/Lightbox/2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="photo-container">
+                                <div class="photo">
+                                    <img src="./images/Lightbox/3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="photo-container">
+                                <div class="photo">
+                                    <img src="./images/Lightbox/4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="photo-container">
+                                <div class="photo">
+                                    <img src="./images/Lightbox/5.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="photo-container">
+                                <div class="photo">
+                                    <img src="./images/Lightbox/6.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="photo-container">
+                                <div class="photo">
+                                    <img src="./images/Lightbox/7.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="photo-container">
+                                <div class="photo">
+                                    <img src="./images/Lightbox/8.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row2">
+                        <div class="column">
+                            <div class="photo-container">
+                                <div class="photo">
+                                    <img src="./images/Lightbox/9.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- The Modal/Lightbox -->
+                    <div id="myModal" class="modal">
+                        <span class="close cursor" onclick="closeModal()">&times;</span>
+                        <div class="modal-content">
+                    
+                        <div class="mySlides">
+                            <div class="numbertext">1 / 9</div>
+                            <img src="./images/Lightbox/1.jpg" style="width:80%">
+                        </div>
+                    
+                        <div class="mySlides">
+                            <div class="numbertext">2 / 9</div>
+                            <img src="./images/Lightbox/2.jpg" style="width:80%">
+                        </div>
+                    
+                        <div class="mySlides">
+                            <div class="numbertext">3 / 9</div>
+                            <img src="./images/Lightbox/3.jpg" style="width:80%">
+                        </div>
+                    
+                        <div class="mySlides">
+                            <div class="numbertext">4 / 9</div>
+                            <img src="./images/Lightbox/4.jpg" style="width:80%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">5 / 9</div>
+                            <img src="./images/Lightbox/5.jpg" style="width:80%">
+                        </div>
+                    
+                        <div class="mySlides">
+                            <div class="numbertext">6 / 9</div>
+                            <img src="./images/Lightbox/6.jpg" style="width:80%">
+                        </div>
+                    
+                        <div class="mySlides">
+                            <div class="numbertext">7 / 9</div>
+                            <img src="./images/Lightbox/7.jpg" style="width:80%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">8 / 9</div>
+                            <img src="./images/Lightbox/8.jpg" style="width:80%">
+                        </div>
+                    
+                        <div class="mySlides">
+                            <div class="numbertext">9 / 9</div>
+                            <img src="./images/Lightbox/9.jpg" style="width:80%">
+                        </div>
+                    
+                        <!-- Next/previous controls -->
+                        <a class="prev" onclick="plusSlides(-1)">&#8592;</a>
+                        <a class="next" onclick="plusSlides(1)">&#8594;</a>
+                    
+                        <!-- Caption text -->
+                        <div class="caption-container">
+                            <p id="caption"></p>
+                        </div>
+                    
+                        <!-- Thumbnail image controls -->
+                        <div class="column">
+                            <img class="demo" src="./images/Lightbox/1.jpg" onclick="currentSlide(1)" alt="On the Bridge">
+                        </div>
+                    
+                        <div class="column">
+                            <img class="demo" src="./images/Lightbox/2.jpg" onclick="currentSlide(2)" alt="Parade">
+                        </div>
+                    
+                        <div class="column">
+                            <img class="demo" src="./images/Lightbox/3.jpg" onclick="currentSlide(3)" alt="Outside the Castle">
+                        </div>
+                    
+                        <div class="column">
+                            <img class="demo" src="./images/Lightbox/4.jpg" onclick="currentSlide(4)" alt="Halloween">
+                        </div>
+
+                        <div class="column">
+                            <img class="demo" src="./images/Lightbox/5.jpg" onclick="currentSlide(5)" alt="Toy Story Land">
+                        </div>
+                    
+                        <div class="column">
+                            <img class="demo" src="./images/Lightbox/6.jpg" onclick="currentSlide(6)" alt="Suspicious Mickey">
+                        </div>
+                    
+                        <div class="column">
+                            <img class="demo" src="./images/Lightbox/7.jpg" onclick="currentSlide(7)" alt="Dumbo Ride">
+                        </div>
+                    
+                        <div class="column">
+                            <img class="demo" src="./images/Lightbox/8.jpg"onclick="currentSlide(8)" alt="Character Breakfast">
+                        </div>
+
+                        <div class="column">
+                            <img class="demo" src="./images/Lightbox/9.jpg" onclick="currentSlide(9)" alt="Fireworks">
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+		
+		<!--RSVP-->
+        <section id="Contact">
+            <div class="container">
+                <div class="heading-padding">
+                    <h1 class="heading-padding">Reservations</h1>
+                    <div class="reservation">
+                        <h2><span>Your Vacation is Just a Wish Away!</span>
+                        <br>Reserve Your Vacation Today!
+						<br>&nbsp;
+                        </h2>
+                        <p class="rsvp-text">
+                        Please Provide us with your basic contact information and we will contact ya real soon!
+                        </p>
+						<img src="./images/thumb/mickey.png" alt="Mickey Mouse"
+                        <div class="form-rsvp">
+                            <form action="" method="post">
+                                <input class="rsvp" type="text" value="" placeholder="First Name">
+                                <input class="rsvp" type="text" value="" placeholder="Last Name">
+                                <input class="rsvp" type="text" value="" placeholder="Email Address">
+                                <input class="rsvp" type="text" value="" placeholder="Phone Number">
+                                <div class="form-spacer">
+                                    <label class="terms">Terms and Conditions</label>
+                                </div>
+                                <div class="submit">
+                                    <input type="submit" value="Submit">
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>   
+
+                </div>
+            </div>
+        </section>
+        <!--END RSVP-->
+		
+		<!-- FOOTER -->
+		<div id="Footer">
+            www.DisneyWorldTravel.Travel&nbsp;&nbsp;&copy; 2022
+        </div>
+		<!-- END FOOTER -->
+		
+	</body>
+</html>
