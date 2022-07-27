@@ -1,0 +1,28 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 id="hello_world" class="display-4 green-text" onmouseover="newColor()" onmouseout="oldColor()">I'll Never Give You Up</h1>
+</div>
+
+
+<style>
+    body {
+        background-color: linen;
+    }
+</style>
+
+<div class="video">
+    <iframe width="800" height="600" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<p>
+    <button onclick="myMove()">Click Me</button>
+</p>
+
+<div id="myContainer">
+    <div id="myAnimation"></div>
+</div>
